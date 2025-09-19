@@ -1,6 +1,6 @@
 #  Spotify Big Data Analysis with PySpark, Hive & Hadoop
 
-The aim of this project is to demonstrate how Apache Spark and Hive can be used for large-scale data processing. For this example, the pipeline runs on Google Colab, but in production, it would scale across Hadoop clusters (HDFS + YARN).
+The aim of this project is to demonstrate how Apache Spark and Hive can be used for large-scale data processing. For this example, the pipeline runs on Google Colab (https://colab.research.google.com/drive/11FbZr4hCwC9ci2t-AFewpSVyMKkorxod?usp=sharing), but in production, it would scale across Hadoop clusters (HDFS + YARN).
 
 This project explores Spotify’s track dataset (~1140k rows) https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset?resource=download using **Apache Spark**.  
 I built an end-to-end pipeline that combines **Big Data processing (Spark SQL, Hive, Hadoop (theoretical), Parquet)** with **Machine Learning (RandomForest)** to complete exploratory data analysis, analyse audio features and predict track genres.  
