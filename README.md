@@ -1,4 +1,4 @@
-# Big Data Analysis Project
+#  Spotify Big Data Analysis with PySpark, Hive & Hadoop
 
 The aim of this project is to demonstrate how Apache Spark and Hive can be used for large-scale data processing. For this example, the pipeline runs on Google Colab, but in production, it would scale across Hadoop clusters (HDFS + YARN).
 
