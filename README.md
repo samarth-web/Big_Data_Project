@@ -39,7 +39,7 @@ The Spotify dataset reports loudness in **dBFS/LUFS (decibels relative to full s
 
 ---
 
-## ⚙Scalability Note
+## Scalability Note
 - **Local (Colab):** SparkSession with Hive-style Parquet tables.  
 - **Production (Hadoop):** Same tables stored in **HDFS**, Spark jobs executed across nodes with **YARN**.  
 - **Cloud:** Equivalent on **AWS EMR / Databricks** with S3 in place of HDFS.  
